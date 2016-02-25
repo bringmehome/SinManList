@@ -15,8 +15,10 @@ import 'babel-core/polyfill'
 import React from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
-import App from './containers/App'
-import configureStore from './store/configureStore'
+// import App from './redux/containers/App'
+// import configureStore from './redux/store/configureStore'
+import App from './sinredux/containers/App'
+import configureStore from './sinredux/store/configureStore'
 import 'todomvc-app-css/index.css'
 
 const store = configureStore();

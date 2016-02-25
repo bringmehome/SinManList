@@ -40,7 +40,7 @@ export function clearCompleted() {
 
 export function saveToCloud(text) {
     return dispatch => {
-        console.log("saveToCloud --->"+text + " Helo");
+        console.log("保存去云端"+text + " Sino");
     }
 }
 
