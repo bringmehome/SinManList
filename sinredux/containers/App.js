@@ -11,12 +11,12 @@ import * as LoginAction from '../actions/LoginAction'
 
 class App extends Component {
   render() {
-    console.debug("App.js");
     const { todos, actions } = this.props;
+    console.debug("App.js", todos);
     // console.log("App->", actions.addTodo);
     return (
       <div>
-        <LoginRender sinaction={actions}/>
+        <LoginRender sinaction={actions} phone={todos[0].phone} password={todos[0].password}/>
       </div>
     )
   }

@@ -2,7 +2,8 @@ import React, { Component, PropTypes } from 'react'
 
 class LoginRender extends Component {
   constructor(props, context) {
-      super(props, context)
+      super(props, context);
+      console.debug("LoginRender", this.props.todos);
       this.state = {
           phone: this.props.phone || '',
           password: this.props.password || ''

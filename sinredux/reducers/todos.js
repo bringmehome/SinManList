@@ -1,6 +1,6 @@
 // import { ADD_TODO, DELETE_TODO, EDIT_TODO, COMPLETE_TODO, COMPLETE_ALL, CLEAR_COMPLETED, SAVETOCLOUD } from '../constants/ActionTypes'
 const initialState = [{
-    phone: 'Redux Item',
+    phone: '13122000202',
     password: '123456'
 }]
 export default function todos(state = initialState, action) {
@@ -61,6 +61,6 @@ export default function todos(state = initialState, action) {
     //         console.log("reduce-->default.js");
     //         return state
     // }
-
+console.debug("state -->", state);
             return state
 }
